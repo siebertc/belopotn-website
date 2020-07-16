@@ -1,0 +1,335 @@
+	<body>
+
+        <!-- Start Header -->
+        <header>
+            {{#if mailSent}}
+                <script>
+                    alert("Mail sent successfully! I will get back to you as soon as I can.");
+                </script>
+            {{/if}}
+            
+			<nav class="navbar navbar-default navbar-alt" role="navigation">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					    </button>
+                        <a class="navbar-brand" rel="home" href="#">
+                            <img src="img/assets/nb face eyebrow.png" class="logo-big" style="top:5px;width:48px;height:48px;">
+
+                            <!-- <img src="img/assets/header.png" class="logo-big" style="margin-left:60px"> -->
+
+                            <img src="img/assets/nb face eyebrow.png" class="logo-small" style="top:5px;width:48px;height:48px;">
+
+                        	<img src="img/assets/header.png" class="logo-small" style="margin-left:50px">
+                        </a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="main-nav">
+                        <ul class="nav navbar-nav  navbar-right">
+
+                            <li class="to-section"><a href="#">Home</a></li>
+                            <li class="to-section"><a href="#portfolio">Portfolio</a></li>
+                            <!-- <li class="to-section"><a href="/about/">About Us</a></li>
+                            <li class="to-section"><a href="/contact/">Contact</a></li> -->
+                            <li><a class="social-icon" href="https://twitter.com/killakole_"><i class="icon icon-social-twitter"></i></a></li>
+                            <li><a class="social-icon" href="https://vimeo.com/73106432"><i class="icon ion-social-vimeo"></i></a></li>
+                            <li><a class="social-icon" href="https://www.linkedin.com/in/belopotosky"><i class="icon ion-social-linkedin"></i></a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			</nav>
+		</header>
+        <!-- End Header -->
+
+        <!-- Start Home Video Section -->
+		<!-- <section id="hero" class="hero-fullwidth" style="height:800px">
+			<div class="background-image">
+				<video src="http://kole.belopotosky.com/videos/MBB-Intro-DamCityClassic.mp4" autoplay loop class="vossen-video"></video>
+			</div>
+
+			<div class="container">
+				<div class="row">
+                    <div class="col-sm-12 text-center">
+						<h5 class="white mt20" style="padding-top:475px">Caffeine Junky, Bringer of the Impossimpable, Harbinger of Motion Designs</h5>
+					</div>
+				</div>
+			</div>
+			<a id="mute-toggle"><i class="ion-android-volume-mute"></i></a>
+			<a id="play-toggle"><i class="ion-play"></i></a>
+		</section> -->
+		<!-- End Home Video Section -->
+
+
+        <!-- Start Page Top -->
+        <section id="page-top" style="height:calc(10vw + 50px)">
+        <div>
+
+            <img src="img/assets/header.gif" alt="hero">
+
+        </div>
+        </section>
+        <!-- End Page Top -->
+
+        <div class="site-wrapper content">
+
+            <!-- Start Portfolio Section -->
+            <section id="portfolio" style="position: relative;">
+                    <div class="separator"></div>
+                    <div class="container">
+    
+                        <div class="col-md-12 text-center">
+                            <h3 class="section-title wow fadeInUp">Low-Key Brag</h3>
+                            <!-- <p class="subheading wow fadeInUp">Creating products and services that <span class="highlight">transform brands</span>.</p> -->
+                        </div>
+    
+                        <div id="filters-container-fullwidth" class="cbp-l-filters-alignCenter wow fadeInUp">
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All<div class="cbp-filter-counter"></div></div>
+                            <div data-filter=".edelman" class="cbp-filter-item">Edelman<div class="cbp-filter-counter"></div></div>
+                            <div data-filter=".freelance" class="cbp-filter-item">Freelance<div class="cbp-filter-counter"></div></div>
+                            <div data-filter=".osu" class="cbp-filter-item">Oregon State University<div class="cbp-filter-counter"></div></div>
+                        </div>
+    
+                        <div id="grid-container-fullwidth" class="cbp-l-grid-fullScreen">
+                            <ul>
+                                <li class="cbp-item effect effects freelance">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-princeton.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Princeton Athletics</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/Princeton.mp4" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="cbp-item effect effects osu">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-oregon-state-football.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Oregon State Football 2019</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/oregon football-video01.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-edelman.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Edelman</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/edelman-1.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="cbp-item effect effects freelance">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-hilton.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Hilton</li>
+                                                <li class="cbp-l-icon"><a href="img/projects/Hilton_website_01.png" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/projects/Hilton_website_02.jpg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/hilton-web_1.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-kelloggs.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Kelloggs</li>
+                                                {{!-- <li class="cbp-l-icon"><a href="img/gifs/kellogs-gif.gif" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li> --}}
+                                                <li class="cbp-l-icon"><a href="img/projects/kelloggs-photo-1.png" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/projects/kelloggs-photo-2.png" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/projects/kelloggs-photo-3.png" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-aha.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">American Heart Association</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/aha-website.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> 
+
+                                <li class="cbp-item effect effects freelance">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-xfinity.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Comcast</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/comcast-website.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="cbp-item effect effects osu">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-osu-baseball.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Oregon State Baseball 2019</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/baseball-website.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/projects/osu baseball photo - website.png" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-burger king.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Burger King</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/burger-king-website.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-blackberry.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Blackberry</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/blackberry-web-encoder.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="cbp-item effect effects osu">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-oregon state mbb.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Oregon State Baseball 2019</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/oregon state mbb-moda02.gif" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/projects/oregon state mbb-image01.png" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-kraft.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Kraft</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/kraft-website.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+    
+                                {{!-- <li class="cbp-item effect effects freelance">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-allstate.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Allstate</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/allstate_website.webm" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/projects/allstate-photo.jpg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> --}}
+
+                                <li class="cbp-item effect effects osu">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-retro.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Oregon State Retro Football 2019</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/retro-website.gif" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/retro-pumper-website.gif" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="cbp-item effect effects edelman">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-axe.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Axe</li>
+                                                <li class="cbp-l-icon"><a href="img/gifs/axe-website.gif" class="cbp-lightbox"><i class="ion-film-marker"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li class="cbp-item effect effects freelance">
+                                    <div class="img">
+                                        <img src="img/thumbnails/thumb-ha.png" class="img-responsive" alt="" />
+                                        <div class="overlay">
+                                            <ul class="expand">
+                                                <li class="cbp-l-caption-title">Regularly Scheduled Memes</li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha1.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha2.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha3.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha4.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha5.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha6.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                                <li class="cbp-l-icon"><a href="img/assets/ha7.jpeg" class="cbp-lightbox"><i class="ion-android-image"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li> 
+                            
+                            </ul>
+                        </div>
+
+    
+                        <div class="cbp-l-loadMore-button">
+                            <a href="projects/loadMore.html" class="cbp-l-loadMore-button-link wow fadeInUp">SHOW ME MORE</a>
+                            <!-- Portfolio AJAX load more button will be functional only on your server. Upload to your server when testing. -->
+                        </div>
+    
+                    </div>
+                </section>
+        <!-- jQuery -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <script src="js/plugins/moderniz.min.js"></script>
+    <script src="js/plugins/revslider.min.js"></script>
+    <script src="js/plugins/bootstrap.min.js"></script>
+    <script src="js/plugins/waypoints.min.js"></script>
+    <script src="js/plugins/parallax.min.js"></script>
+    <script src="js/plugins/easign1.3.min.js"></script>
+    <script src="js/plugins/cubeportfolio.min.js"></script>
+    <script src="js/plugins/owlcarousel.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/plugins/gmap3.min.js"></script>
+    <script src="js/plugins/wow.min.js"></script>
+    <script src="js/plugins/counterup.min.js"></script>
+    <script src="js/scripts.js?v=2"></script>
+
+</body>
