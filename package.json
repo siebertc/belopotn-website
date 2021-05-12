@@ -19,7 +19,7 @@
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "geoip-lite": "^1.4.0",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "sendmail": "^1.6.1",
     "sphp": "^0.6.3"
   },
